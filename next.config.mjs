@@ -45,7 +45,6 @@ const nextConfig = {
     }
   ],
   experimental: {
-    optimizeCss: true,
     turbo: {
       rules: {
         // Optimize images on build
