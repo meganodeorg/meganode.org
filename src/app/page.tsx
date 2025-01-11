@@ -1,6 +1,6 @@
 "use client";
 
-import { IconRocket, IconShield, IconServer, IconGlobe, IconGauge, IconClock, IconChevronRight, IconBrandTwitter, IconBrandGithub, IconBrandTelegram, IconBrandDiscord } from '@tabler/icons-react';
+import { IconRocket, IconShield, IconServer, IconGauge, IconClock, IconChevronRight, IconBrandTwitter, IconBrandGithub, IconBrandTelegram, IconBrandDiscord } from '@tabler/icons-react';
 import { useEffect, useState } from 'react';
 import Image from 'next/image';
 
