@@ -20,8 +20,34 @@ const spaceGrotesk = Space_Grotesk({
 })
 
 export const metadata: Metadata = {
-  title: 'MegaNode | Professional Web3 Validator',
-  description: 'Enterprise-grade validation services ensuring network security and reliability for next-generation blockchain networks. 5+ years of experience with 99.9% uptime.',
+  title: 'MegaNode - Blockchain Validation Services',
+  description: 'Secure, reliable, and high-performance validation services for next-generation blockchain networks',
+  icons: {
+    icon: [
+      {
+        url: '/favicon.ico',
+        sizes: '32x32',
+        type: 'image/x-icon',
+      },
+      {
+        url: '/icon.png',
+        sizes: '192x192',
+        type: 'image/png',
+      },
+      {
+        url: '/apple-icon.png',
+        sizes: '180x180',
+        type: 'image/png',
+      },
+    ],
+    apple: [
+      {
+        url: '/apple-icon.png',
+        sizes: '180x180',
+        type: 'image/png',
+      },
+    ],
+  },
   keywords: ['blockchain validator', 'web3', 'node operator', 'proof of stake', 'blockchain infrastructure', 'network security'],
   metadataBase: new URL('https://meganode.org'),
   openGraph: {
