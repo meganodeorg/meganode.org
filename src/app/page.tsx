@@ -39,7 +39,7 @@ export default function Home() {
         <div className="animate-fade-in text-center">
           <div className="flex flex-col items-center justify-center mb-20">
             <div className="relative mb-8">
-              <h1 className="flex items-baseline" aria-label="MegaNode">
+              <h1 className="flex items-baseline" aria-label="MegaNode" data-priority="high">
                 <span className="mega-text hover-glow">mega</span>
                 <span className="node-text hover-glow">node</span>
               </h1>
